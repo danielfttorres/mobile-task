@@ -12,7 +12,13 @@ $ cd RNMobileTask && yarn
 ```
 
 ## Running
-For running this project, keep the server running in a tab of your terminal, with execute the command*:
+Before running, you need to create the `.env` file on root of `RNMobileTask` path. This file must be contain the `API_KEY` generated in the **[NewsAPI.org](https://newsapi.org)**. The `.env` file need to be like:
+```
+API_KEY=your_api_key_here
+```
+
+After that, you must to be keep the server running in a tab of your terminal, with execute the command*:
+
 ```bash
 $ react-native start
 ```

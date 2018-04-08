@@ -78,6 +78,8 @@ project.ext.react = [
 
 apply from: "../../node_modules/react-native/react.gradle"
 
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 /**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices
@@ -137,6 +139,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-config')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:23.0.1"
     implementation "com.facebook.react:react-native:+"  // From node_modules
