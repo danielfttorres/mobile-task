@@ -1,30 +1,30 @@
 // @flow
 import React, { Component } from 'react'
-import { Platform, Text, View } from 'react-native'
+import { View, StatusBar, Platform } from 'react-native'
 import styles from '@styles/general'
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
+import AppNavigator from './Navigator'
+
+const statusBarBackground = Platform.select({
+  ios: <View style={styles.statusBarBackground} />
 })
 
 type Props = {}
-export default class App extends Component<Props> {
+
+class App extends Component<Props> {
+
+  componentDidMount() {
+    StatusBar.setBarStyle('light-content')
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+        {statusBarBackground}
+        <AppNavigator />
       </View>
     )
   }
 }
+
+export default App

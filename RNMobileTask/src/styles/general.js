@@ -4,19 +4,12 @@ import { colors } from '@styles/base'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: colors.Lighten,
+    backgroundColor: colors.Light,
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: colors.Dark,
-    marginBottom: 5,
+  
+  statusBarBackground: {
+    height: 20,
+    backgroundColor: colors.Darkest,
   },
 })
 
