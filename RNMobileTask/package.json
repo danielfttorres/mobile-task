@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "eslint": "./node_modules/eslint/bin/eslint.js .",
-    "test": "jest"
+    "typecheck": "./node_modules/.bin/flow",
+    "test": "yarn eslint && jest"
   },
   "dependencies": {
     "react": "16.3.1",
@@ -15,12 +16,25 @@
     "babel-eslint": "^8.2.2",
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-plugin-react-native": "^3.2.1",
+    "flow-bin": "^0.67.0",
     "jest": "22.4.3",
+    "react-native-mock": "^0.3.1",
     "react-test-renderer": "16.3.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "verbose": true,
+    "automock": false,
+    "setupFiles": [
+      "./jestSetup.js"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
   }
 }

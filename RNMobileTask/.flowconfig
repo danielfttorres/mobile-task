@@ -13,6 +13,9 @@
 ; "node_modules/react-native" but in the source repo it is in the root
 .*/Libraries/react-native/React.js
 
+; Ignore react-native-mock
+.*/node_modules/react-native-mock/*
+
 ; Ignore polyfills
 .*/Libraries/polyfills/.*
 
