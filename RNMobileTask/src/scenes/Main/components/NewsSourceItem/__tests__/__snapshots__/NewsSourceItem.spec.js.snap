@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsSourceItem component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NewsSourceItem
+    item={
+      Object {
+        "description": "Item description",
+        "name": "Item name",
+        "url": "https://item.url",
+      }
+    }
+    onPress={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeOpacity": 0.2,
+      "children": Array [
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "marginBottom": 4,
+            }
+          }
+        >
+          Item name
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "fontWeight": "300",
+              "marginVertical": 2,
+            }
+          }
+        >
+          Item description
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999999",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "marginVertical": 2,
+            }
+          }
+        >
+          https://item.url
+        </Text>,
+      ],
+      "onPress": [Function],
+      "style": Object {
+        "backgroundColor": "#FFFFFF",
+        "paddingHorizontal": 16,
+        "paddingVertical": 8,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Item name",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "fontSize": 18,
+            "fontWeight": "800",
+            "marginBottom": 4,
+          },
+        },
+        "ref": null,
+        "rendered": "Item name",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Item description",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "fontWeight": "300",
+            "marginVertical": 2,
+          },
+        },
+        "ref": null,
+        "rendered": "Item description",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "https://item.url",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#999999",
+            "fontSize": 12,
+            "fontWeight": "300",
+            "marginVertical": 2,
+          },
+        },
+        "ref": null,
+        "rendered": "https://item.url",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeOpacity": 0.2,
+        "children": Array [
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "fontSize": 18,
+                "fontWeight": "800",
+                "marginBottom": 4,
+              }
+            }
+          >
+            Item name
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "fontWeight": "300",
+                "marginVertical": 2,
+              }
+            }
+          >
+            Item description
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#999999",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "marginVertical": 2,
+              }
+            }
+          >
+            https://item.url
+          </Text>,
+        ],
+        "onPress": [Function],
+        "style": Object {
+          "backgroundColor": "#FFFFFF",
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Item name",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "marginBottom": 4,
+            },
+          },
+          "ref": null,
+          "rendered": "Item name",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Item description",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "fontWeight": "300",
+              "marginVertical": 2,
+            },
+          },
+          "ref": null,
+          "rendered": "Item description",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "https://item.url",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#999999",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "marginVertical": 2,
+            },
+          },
+          "ref": null,
+          "rendered": "https://item.url",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
