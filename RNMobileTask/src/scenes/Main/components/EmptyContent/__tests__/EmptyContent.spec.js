@@ -1,14 +1,13 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import App from './../App'
+import EmptyContent from './../EmptyContent'
 
 
-describe('App screen', () => {
+describe('EmptyContent component', () => {
 
   it('renders correctly', () => {
-
     const wrapper = shallow(
-      <App />
+      <EmptyContent />
     )
   
     expect(wrapper).toMatchSnapshot()

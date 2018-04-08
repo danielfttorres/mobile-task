@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyContent component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EmptyContent />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999999",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "lineHeight": 22,
+              "textAlign": "center",
+            }
+          }
+        >
+          There are no content to show
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#999999",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "lineHeight": 18,
+              "marginVertical": 12,
+              "paddingHorizontal": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Sorry! We don't have content to show for this news source. Please choose another one.
+        </Text>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 38,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "There are no content to show",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#999999",
+            "fontSize": 18,
+            "fontWeight": "800",
+            "lineHeight": 22,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "There are no content to show",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Sorry! We don't have content to show for this news source. Please choose another one.",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#999999",
+            "fontSize": 12,
+            "fontWeight": "300",
+            "lineHeight": 18,
+            "marginVertical": 12,
+            "paddingHorizontal": 12,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "Sorry! We don't have content to show for this news source. Please choose another one.",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#999999",
+                "fontSize": 18,
+                "fontWeight": "800",
+                "lineHeight": 22,
+                "textAlign": "center",
+              }
+            }
+          >
+            There are no content to show
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#999999",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 18,
+                "marginVertical": 12,
+                "paddingHorizontal": 12,
+                "textAlign": "center",
+              }
+            }
+          >
+            Sorry! We don't have content to show for this news source. Please choose another one.
+          </Text>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 38,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "There are no content to show",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#999999",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "lineHeight": 22,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "There are no content to show",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Sorry! We don't have content to show for this news source. Please choose another one.",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#999999",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "lineHeight": 18,
+              "marginVertical": 12,
+              "paddingHorizontal": 12,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "Sorry! We don't have content to show for this news source. Please choose another one.",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

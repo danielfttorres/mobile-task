@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorScreen component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ErrorScreen
+    message="Network request failed"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FC1818",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "lineHeight": 22,
+              "marginBottom": 12,
+              "marginTop": 6,
+              "textAlign": "center",
+            }
+          }
+        >
+          Sorry! :'(
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "marginVertical": 4,
+            }
+          }
+        >
+          An error occurred:
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "lineHeight": 16,
+              "marginVertical": 4,
+              "paddingHorizontal": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Network request failed
+        </Text>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 38,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Sorry! :'(",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#FC1818",
+            "fontSize": 18,
+            "fontWeight": "800",
+            "lineHeight": 22,
+            "marginBottom": 12,
+            "marginTop": 6,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "Sorry! :'(",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "An error occurred:",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "marginVertical": 4,
+          },
+        },
+        "ref": null,
+        "rendered": "An error occurred:",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Network request failed",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "fontSize": 12,
+            "fontWeight": "300",
+            "lineHeight": 16,
+            "marginVertical": 4,
+            "paddingHorizontal": 12,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "Network request failed",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FC1818",
+                "fontSize": 18,
+                "fontWeight": "800",
+                "lineHeight": 22,
+                "marginBottom": 12,
+                "marginTop": 6,
+                "textAlign": "center",
+              }
+            }
+          >
+            Sorry! :'(
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginVertical": 4,
+              }
+            }
+          >
+            An error occurred:
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginVertical": 4,
+                "paddingHorizontal": 12,
+                "textAlign": "center",
+              }
+            }
+          >
+            Network request failed
+          </Text>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 38,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Sorry! :'(",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#FC1818",
+              "fontSize": 18,
+              "fontWeight": "800",
+              "lineHeight": 22,
+              "marginBottom": 12,
+              "marginTop": 6,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "Sorry! :'(",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "An error occurred:",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "marginVertical": 4,
+            },
+          },
+          "ref": null,
+          "rendered": "An error occurred:",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Network request failed",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "lineHeight": 16,
+              "marginVertical": 4,
+              "paddingHorizontal": 12,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "Network request failed",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
