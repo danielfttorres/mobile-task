@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react-native",
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "destructuring": true,
+      "arrowFunctions": true,
+      "classes": true
+    }
+  },
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "semi": [2, "never"],
+    "no-console": 2,
+    "no-useless-escape": 0
+  },
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "fetch": true,
+    "__DEV__": true
+  }
+}

@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App screen renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "margin": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          Welcome to React Native!
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "marginBottom": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          To get started, edit App.js
+        </Text>,
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#333333",
+              "marginBottom": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Press Cmd+R to reload,
+Cmd+D or shake for dev menu
+        </Text>,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "backgroundColor": "#EEEEEE",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Welcome to React Native!",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "fontSize": 20,
+            "margin": 10,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "Welcome to React Native!",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "To get started, edit App.js",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "marginBottom": 5,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "To get started, edit App.js",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "accessible": true,
+          "allowFontScaling": true,
+          "children": "Press Cmd+R to reload,
+Cmd+D or shake for dev menu",
+          "ellipsizeMode": "tail",
+          "style": Object {
+            "color": "#333333",
+            "marginBottom": 5,
+            "textAlign": "center",
+          },
+        },
+        "ref": null,
+        "rendered": "Press Cmd+R to reload,
+Cmd+D or shake for dev menu",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 20,
+                "margin": 10,
+                "textAlign": "center",
+              }
+            }
+          >
+            Welcome to React Native!
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "marginBottom": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            To get started, edit App.js
+          </Text>,
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#333333",
+                "marginBottom": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Press Cmd+R to reload,
+Cmd+D or shake for dev menu
+          </Text>,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEEEE",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Welcome to React Native!",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "fontSize": 20,
+              "margin": 10,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "Welcome to React Native!",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "To get started, edit App.js",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "marginBottom": 5,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "To get started, edit App.js",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "accessible": true,
+            "allowFontScaling": true,
+            "children": "Press Cmd+R to reload,
+Cmd+D or shake for dev menu",
+            "ellipsizeMode": "tail",
+            "style": Object {
+              "color": "#333333",
+              "marginBottom": 5,
+              "textAlign": "center",
+            },
+          },
+          "ref": null,
+          "rendered": "Press Cmd+R to reload,
+Cmd+D or shake for dev menu",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
