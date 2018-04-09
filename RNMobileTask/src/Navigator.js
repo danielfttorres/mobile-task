@@ -3,10 +3,14 @@ import { StackNavigator } from 'react-navigation'
 import { colors } from '@styles/base'
 
 import Main from './scenes/Main'
+import Articles from './scenes/Articles'
 
 const RouteConfigs = {
   Main: {
     screen: Main
+  },
+  Articles: {
+    screen: Articles
   }
 }
 

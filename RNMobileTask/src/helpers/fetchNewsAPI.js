@@ -1,4 +1,5 @@
 // @flow
+import Moment from 'moment'
 import config from 'react-native-config'
 
 
@@ -35,7 +36,24 @@ const fetchNewsSources = async (country: string) => {
   }
 }
 
+const fetchSourceArticles = async (sourceID: string) => {
+  const today = Moment().format('YYYY-MM-DD')
+  const threeDaysAgo = Moment().subtract(3,'d').format('YYYY-MM-DD')
+  const pageSize = 30
+
+  const params = `everything?sources=${sourceID}&from=${threeDaysAgo}&to=${today}&pageSize=${pageSize}&sortBy=popularity`
+
+  try {
+    const response = await fetchNewsAPI(params)
+
+    return response
+  }
+  catch (error) {
+    return error
+  }
+}
 
 export {
-  fetchNewsSources
+  fetchNewsSources,
+  fetchSourceArticles
 }
